@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		How to refresh a page
+		using jQuery?
+	</title>
+	<script src=
+"https://code.jquery.com/jquery-3.3.1.min.js">
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$("button").click(function () {
+				location.reload(true);
+				alert('Reloading Page');
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<center>
+		<h1 style="color:blue">
+			Sample Webpage
+		</h1>
+
+		<b>
+			Webpage Refresher
+		</b>
+
+		<p>
+A simple demonstration of reloading the current webpage, initiated by clicking the button below.
+		</p>
+
+		<button type="button">
+			Reload page
+		</button>
+	</center>
+</body>
+</html>
